@@ -1,0 +1,138 @@
+.text {
+    text-align: left;
+    vertical-align: middle;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.hexTop {
+    height: 0px;
+    width: 0px;
+    border-bottom: 30px solid #999;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+
+.hexBack {
+    width: 104px;
+    height: 60px;
+    background-color: #999;
+}
+
+.hexBot {
+    height: 0px;
+    width: 0px;
+    border-top: 30px solid #999;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+
+.hexRight {
+    float: left;
+    border-right: 60px solid #999;
+    border-top: 104px solid transparent;
+    border-bottom: 104px solid transparent;
+}
+
+.hexCenter {
+    float: left;
+    width: 120px;
+    height: 208px;
+    background-color: #999;
+}
+
+.hexLeft {
+    float: left;
+    border-left: 60px solid #999;
+    border-top: 104px solid transparent;
+    border-bottom: 104px solid transparent;
+}
+
+.hex1 {
+    float: right;
+}
+
+.hex2 {
+    float: right;
+    padding-top: 106px;
+    margin-right: -55px;
+    margin-left: -55px;
+}
+
+.hex3 {
+    float: right;
+    padding-bottom: 5px;
+}
+
+.hex4 {
+    float: right;
+}
+
+.hex5 {
+    float: right;
+    margin-top: -208px;
+}
+
+.hex6 {
+    float: right;
+    margin-right: 185px;
+    margin-top: -102px;
+    padding-bottom: 5px;
+}
+
+.hex7 {
+    float: right;
+    margin-right: -55px;
+    padding-top: 5px;
+}
+
+.hex8 {
+    float: right;
+    margin-top: -207px;
+}
+
+.hexBox {
+    float: right;
+    width: 800px;
+    height: auto;
+    margin-top: -10px;
+    position: relative;
+}
+
+.hex {
+    float: left;
+    margin-left: 3px;
+    margin-bottom: -26px;
+}
+
+
+/*start other orientation*/
+
+.hex .top {
+    width: 0;
+    border-bottom: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+
+.hex .middle {
+    width: 104px;
+    height: 60px;
+    background: #6C6;
+}
+
+.hex .bottom {
+    width: 0;
+    border-top: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+
+.hex-row {
+    clear: left;
+}
+
+.hex-row.even {
+    margin-left: 53px;
+}
